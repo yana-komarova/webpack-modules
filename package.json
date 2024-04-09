@@ -1,0 +1,28 @@
+{
+  "name": "webpack-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yana-komarova/webpack-modules.git"
+  },
+  "author": "Yana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yana-komarova/webpack-modules/issues"
+  },
+  "homepage": "https://github.com/yana-komarova/webpack-modules#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "save-dev": "^0.0.1-security",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
